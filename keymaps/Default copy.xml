@@ -3,6 +3,7 @@
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
   <action id="DatabaseView.CopyAction" />
+  <action id="DecreaseColumnWidth" />
   <action id="Diff.ShowDiff" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl y" />
@@ -17,10 +18,30 @@
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
   <action id="EditorDuplicate" />
+  <action id="EditorNextWord" />
+  <action id="EditorNextWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id="EditorNextWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+  </action>
+  <action id="EditorNextWordWithSelection" />
+  <action id="EditorPreviousWord" />
+  <action id="EditorPreviousWordInDifferentHumpsMode">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
+  <action id="EditorPreviousWordInDifferentHumpsModeWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
+  <action id="EditorPreviousWordWithSelection" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="IncreaseColumnWidth" />
+  <action id="IncrementWindowWidth" />
   <action id="Macro.FormatOnSave">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
   <action id="RunDashboard.CopyConfiguration" />
   <action id="SaveAll" />
   <action id="SendEOF" />
