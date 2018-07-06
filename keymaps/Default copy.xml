@@ -40,6 +40,9 @@
   <action id="Macro.FormatOnSave">
     <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
+  <action id="Macro.SaveWithFormat">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
   <action id="RunDashboard.CopyConfiguration" />
