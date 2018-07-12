@@ -19,5 +19,10 @@
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
+    <pattern useCustomColors="true" pattern="\bchange\b.*">
+      <option name="FOREGROUND" value="bb15c0" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
   </component>
 </application>
