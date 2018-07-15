@@ -1,18 +1,26 @@
 <application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+  </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern useCustomColors="true" pattern="\bfixme\b.*">
+    <pattern case-sensitive="true" pattern="\bTODO\b.*" />
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bFIXME\b.*">
       <option name="FOREGROUND" value="c00700" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
-    <pattern useCustomColors="true" pattern="\bdone\b.*">
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bDONE\b.*">
       <option name="FOREGROUND" value="4c000" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>
-    <pattern useCustomColors="true" pattern="\bxxx\b.*">
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bXXX\b.*">
       <option name="FOREGROUND" value="c0bb" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="\bCHANGE\b.*">
+      <option name="FOREGROUND" value="bb15c0" />
       <option name="FONT_TYPE" value="2" />
       <option name="ERROR_STRIPE_COLOR" value="977ab" />
     </pattern>

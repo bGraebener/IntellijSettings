@@ -1,7 +1,8 @@
 <application>
   <component name="ActionMacroManager">
-    <macro name="SaveWithFormat">
+    <macro name="FormatOnSave">
       <action id="ReformatCode" />
+      <action id="OptimizeImports" />
       <action id="SaveAll" />
     </macro>
   </component>
