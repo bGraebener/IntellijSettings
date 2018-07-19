@@ -1,5 +1,10 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="ChangesView.Diff" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.TableResult.CloneRow" />
   <action id="DatabaseView.CopyAction" />
@@ -35,6 +40,7 @@
   </action>
   <action id="EditorPreviousWordWithSelection" />
   <action id="FileChooser.GotoDesktop" />
+  <action id="Images.Editor.ToggleGrid" />
   <action id="IncreaseColumnWidth" />
   <action id="IncrementWindowWidth" />
   <action id="Macro.FormatOnSave">
