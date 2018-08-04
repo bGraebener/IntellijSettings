@@ -1,0 +1,12 @@
+<templateSet group="html/xml">
+  <template name="th:html" value="&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&#10;      xmlns:th=&quot;http://www.thymeleaf.org&quot;&gt;" description="ThymeleafHeader" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="th:onclick" value="th:onclick=&quot;|window.location.href='@{/}'|&quot;" description="onclick with window loc href" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
