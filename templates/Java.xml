@@ -4,6 +4,7 @@
     <variable name="Time" expression="time()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
     </context>
   </template>
   <template name="mfixme" value="//    FIXME $Date$ $Time$: " description="FIXME with date and time" toReformat="true" toShortenFQNames="true">
@@ -11,6 +12,7 @@
     <variable name="Time" expression="time()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
     </context>
   </template>
   <template name="puvm" value="public void $END$(){&#10;&#10;}" description="public void method" toReformat="true" toShortenFQNames="true">
