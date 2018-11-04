@@ -1,5 +1,5 @@
 <templateSet group="Rust">
-  <template name="sout" value="println!($END$);" description="prints a line to standard out" toReformat="false" toShortenFQNames="true">
+  <template name="sout" value="println!(&quot;{}&quot;, $END$);" description="prints a line to standard out" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="RUST_STATEMENT" value="true" />
     </context>
