@@ -1,5 +1,5 @@
 <application>
   <component name="TerminalOptionsProvider">
-    <option name="myShellPath" value="G:\Coding\Scoop\apps\git\current\bin\bash.exe" />
+    <option name="myShellPath" value="G:\Coding\Scoop\apps\cmder\current\cmder_shell.bat" />
   </component>
 </application>
